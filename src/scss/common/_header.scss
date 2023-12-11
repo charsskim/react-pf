@@ -1,0 +1,24 @@
+.Header {
+	width: 80%;
+	display: flex;
+	margin: 50px auto;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #ccc;
+	h1 {
+		font-size: 3rem;
+		background-color: green;
+		align-items: center;
+		display: flex;
+		justify-content: center;
+	}
+	ul {
+		display: flex;
+		gap: 40px;
+		li {
+			&:last-child {
+				margin-right: 20px;
+			}
+		}
+	}
+}
