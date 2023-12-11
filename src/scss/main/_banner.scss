@@ -1,0 +1,21 @@
+.banner {
+	width: 80%;
+	margin: 0px auto;
+	padding: 100px 0px;
+	.wrap {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		position: relative;
+		flex-wrap: wrap;
+
+		article {
+			width: 23%;
+			height: 300px;
+			border: 1px solid black;
+			&:nth-of-type(odd) {
+				transform: translateY(-20%);
+			}
+		}
+	}
+}

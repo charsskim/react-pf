@@ -1,0 +1,27 @@
+.infor {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 50px 0px;
+
+	h1 {
+		text-align: center;
+		display: block;
+		width: 100%;
+	}
+	article {
+		height: 250px;
+		width: calc(100% / 3);
+		border: 1px solid red;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 30px;
+		.abc {
+			h2 {
+				text-align: center;
+			}
+		}
+	}
+}

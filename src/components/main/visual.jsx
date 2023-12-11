@@ -2,7 +2,6 @@ export default function Visual() {
 	return (
 		<div className='visual'>
 			<div className='wrap'>
-				{' '}
 				<h1>since</h1>
 				<h2>2023</h2>
 				<h3>From Dcodelab</h3>
