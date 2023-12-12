@@ -1,0 +1,14 @@
+.Footer {
+	width: 85vw;
+	margin: 50px auto;
+	height: 100px;
+	background-color: #ccc;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	article {
+		&:nth-of-type(2) {
+			text-align: center;
+		}
+	}
+}
