@@ -5,8 +5,9 @@ import Department from './components/sub/department';
 import Gallery from './components/sub/gallery';
 import Location from './components/sub/location';
 import Youtube from './components/sub/youtube';
-import './scss/style.scss';
+
 import { Route } from 'react-router-dom';
+import './scss/style.scss';
 
 export default function App() {
 	return (
@@ -15,7 +16,7 @@ export default function App() {
 			<Route exact path='/' component={Main} />
 			<Route path='/Department' component={Department} />
 			<Route path='/Gallery' component={Gallery} />
-			<Route path='Youtube' component={Youtube} />
+			<Route path='/Youtube' component={Youtube} />
 			<Route path='/Location' component={Location} />
 			<Footer />
 		</div>

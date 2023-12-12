@@ -1,3 +1,3 @@
 export default function Youtube() {
-	return <main className='youtube'>Youtube</main>;
+	return <main className='layout youtube'>Youtube</main>;
 }

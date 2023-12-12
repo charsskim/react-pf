@@ -1,3 +1,3 @@
 export default function Location() {
-	return <main className='location'>Location</main>;
+	return <main className='layout location'>Location</main>;
 }
