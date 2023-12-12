@@ -13,6 +13,7 @@
 			width: 23%;
 			height: 300px;
 			border: 1px solid black;
+			border-radius: 20px;
 			&:nth-of-type(odd) {
 				transform: translateY(-20%);
 			}

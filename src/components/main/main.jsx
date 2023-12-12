@@ -1,5 +1,6 @@
 import Banner from './banner';
 import Infor from './infor';
+import News from './news';
 import Visual from './visual';
 
 export default function Main() {
@@ -8,6 +9,7 @@ export default function Main() {
 			<Visual />
 			<Banner />
 			<Infor />
+			<News />
 		</div>
 	);
 }
